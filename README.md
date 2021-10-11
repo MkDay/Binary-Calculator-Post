@@ -94,7 +94,7 @@ console.log(result);
 
 ```
 
-After doing some research I realized, it is possible to do by using `window` object. Since the *operator* variable is just a property of the [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window "Window - MDN") object, we can access its value using the property key, in this case, it is *operator*.
+After doing some research I realized, it is possible to do by using `window` object. Since the *operator* variable is just a property of the [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window "Window - MDN") object, we can access its value using the property key in dynamic way, in this case, it is *operator*.
 
 ```javascript
 let res = window[operator](7, 5);
